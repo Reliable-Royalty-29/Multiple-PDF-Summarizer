@@ -3,9 +3,9 @@ import tempfile
 from dotenv import load_dotenv
 import streamlit as st
 from langchain.chains.summarize import load_summarize_chain
-# from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import PyPDFLoader
 from langchain_openai import AzureOpenAI
-from langchain_community.document_loaders import PyPDFLoader
+# from langchain_community.document_loaders import PyPDFLoader
 
 # Load environment variables from .env file
 load_dotenv()
